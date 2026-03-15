@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
-import { OrbitControls, PerspectiveCamera, Text, Float, Stars, MeshDistortMaterial } from '@react-three/drei';
+import { PerspectiveCamera, Stars } from '@react-three/drei';
 import * as THREE from 'three';
 import { motion, AnimatePresence } from 'motion/react';
 import { Play, RotateCcw, Trophy, ChevronLeft, ChevronRight } from 'lucide-react';
